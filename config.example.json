@@ -1,0 +1,16 @@
+{
+  "discordToken": "",
+  "discordProxy": "",
+  "channelId": "",
+  "channels": [],
+  "hours": 24,
+  "limit": 2000,
+  "apiBase": "",
+  "apiKey": "",
+  "model": "",
+  "protocol": "chat",
+  "customPrompt": "",
+  "scheduleEnabled": false,
+  "scheduleHours": 1,
+  "scheduleLimit": 1000
+}
