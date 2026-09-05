@@ -6,8 +6,6 @@
 
 ## 界面预览
 
-> 以下截图全部使用演示数据。频道 ID、接口地址和凭据区域已使用实心遮挡，不包含真实聊天记录或账号信息。
-
 ### 频道工作台
 
 ![频道工作台：消息活动、增量状态、总结操作与最近报告](docs/images/workspace.png)
@@ -15,6 +13,7 @@
 ### 连接与设置
 
 ![连接与设置：敏感字段已打码，Discord 与 AI 的代理设置互相隔离](docs/images/settings.png)
+discord的cookie是从网页版discord获取填写。
 
 ## 主要功能
 
@@ -48,7 +47,7 @@ cd ..
 python server.py --no-scheduler
 ```
 
-打开 **http://127.0.0.1:8790**。
+打开 **http://127.0.0.1:8790**
 
 首次启动不带个人配置，在「连接与设置」中填写连接信息并保存即可。也可以参考 [`config.example.json`](config.example.json) 创建自己的 `config.json`。
 
